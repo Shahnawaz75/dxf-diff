@@ -52,6 +52,7 @@ classifiers = [
 dependencies = ["ezdxf>=1.1"]
 
 [project.optional-dependencies]
+png = ["matplotlib>=3.5"]
 test = ["pytest>=7"]
 
 [project.urls]

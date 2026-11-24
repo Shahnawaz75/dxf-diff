@@ -11,7 +11,9 @@ Example::
 
 from ._version import __version__
 from .engine import CompareOptions, compare, load_drawing
+from .html_report import render_html, write_html
 from .model import BlockChange, ChangeKind, DiffResult, DxfDiffError, EntityChange, LayerChange, PropertyChange
+from .png_report import write_png
 
 __all__ = [
     "BlockChange",
@@ -25,4 +27,7 @@ __all__ = [
     "__version__",
     "compare",
     "load_drawing",
+    "render_html",
+    "write_html",
+    "write_png",
 ]
