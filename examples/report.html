@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="generator" content="dxf-diff 0.1.0">
+<title>dxf-diff: tank_rev_a.dxf vs tank_rev_b.dxf</title>
+<style>
+:root{--add:#1a7f37;--rem:#cf222e;--mod:#e8590c;--modold:#f59f00;--unch:#c3c9d1;--ink:#1f2328;--mute:#59636e;--line:#d1d9e0;--bg:#f6f8fa}
+*{box-sizing:border-box}
+body{margin:0;font:14px/1.45 system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:var(--ink);background:var(--bg)}
+header{padding:14px 20px 10px;background:#fff;border-bottom:1px solid var(--line)}
+h1{font-size:19px;margin:0 0 6px}h1 small{font-weight:400;color:var(--mute);font-size:13px;margin-left:6px}
+h2{font-size:15px;margin:22px 0 8px}
+.files{display:grid;grid-template-columns:auto 1fr;gap:2px 10px;font:12.5px/1.5 ui-monospace,SFMono-Regular,Consolas,monospace;word-break:break-all}
+.files b{font-family:system-ui,sans-serif;font-size:11px;letter-spacing:.04em;align-self:center}
+.files .o{color:var(--rem)}.files .n{color:var(--add)}
+main{padding:12px 20px 24px}
+.cards{display:flex;flex-wrap:wrap;gap:8px;margin:2px 0 12px}
+.card{background:#fff;border:1px solid var(--line);border-left-width:4px;border-radius:6px;padding:5px 14px 6px;min-width:104px;color:var(--mute);font-size:12.5px}
+.card b{display:block;font-size:21px;line-height:1.2;color:var(--ink)}
+.card.added{border-left-color:var(--add)}.card.removed{border-left-color:var(--rem)}.card.modified{border-left-color:var(--mod)}.card.unchanged{border-left-color:var(--unch)}.card.table{border-left-color:#8250df}
+.viewer{background:#fff;border:1px solid var(--line);border-radius:8px;overflow:hidden}
+.bar{display:flex;flex-wrap:wrap;gap:6px 16px;align-items:center;padding:7px 12px;border-bottom:1px solid var(--line);font-size:13px}
+.bar label{display:inline-flex;align-items:center;gap:4px;cursor:pointer}
+.sw{display:inline-block;width:22px;border-top:3px solid;vertical-align:middle;margin-right:5px}
+.sw.dash{border-top-style:dashed}
+.legend span{white-space:nowrap;margin-right:12px}
+.bar button{font:inherit;padding:2px 12px;border:1px solid var(--line);border-radius:6px;background:#f6f8fa;cursor:pointer}
+.hint{color:var(--mute);font-size:12px;margin-left:auto}
+#view{display:block;width:100%;height:62vh;min-height:320px;background:#fff;cursor:grab;user-select:none;touch-action:none}
+#view path{fill:none;stroke:currentColor;stroke-width:1.1px;vector-effect:non-scaling-stroke;stroke-linecap:round;stroke-linejoin:round}
+#view text{fill:currentColor;font-family:Arial,Helvetica,sans-serif;white-space:pre}
+#view path.f{fill:currentColor;fill-opacity:.14}
+#view path.d{stroke-width:5px}
+#view .u{color:var(--unch);pointer-events:none}
+#view .removed{color:var(--rem)}#view .added{color:var(--add)}#view .modified.n{color:var(--mod)}
+#view .modified.o{color:var(--modold)}#view .modified.o path{stroke-dasharray:6 4}#view .modified.o text{opacity:.75}
+#view path.hit{stroke:transparent;stroke-width:12px;stroke-dasharray:none;fill:none}
+#view .ent{cursor:pointer}
+#view .ent.hov path:not(.hit),#view .ent.sel path:not(.hit){stroke-width:3.2px}
+#view .ent.hov text,#view .ent.sel text{font-weight:700}
+#view .ent.sel{animation:blink .9s ease-in-out 2}
+@keyframes blink{50%{opacity:.2}}
+#view.hide-u .u,#view.hide-old .removed,#view.hide-old .o,#view.hide-new .added,#view.hide-new .n{display:none}
+.tools{display:flex;justify-content:space-between;align-items:baseline;gap:10px;flex-wrap:wrap}
+input[type=search]{font:inherit;padding:4px 9px;border:1px solid var(--line);border-radius:6px;min-width:240px}
+table{border-collapse:collapse;width:100%;background:#fff;border:1px solid var(--line);font-size:13px}
+th,td{padding:5px 9px;border-bottom:1px solid #eaeef2;text-align:left;vertical-align:top}
+th{background:#f3f5f7;font-weight:600}
+td ul{margin:4px 0 0;padding-left:18px;color:var(--mute)}
+tr[data-id]{cursor:pointer}tr[data-id]:hover,tr.hov{background:#fff8c5}tr.sel{background:#ffe9a8}
+td.h{font-family:ui-monospace,Consolas,monospace;color:var(--mute);white-space:nowrap}
+td.none{color:var(--mute);text-align:center;padding:14px}
+.k{display:inline-block;min-width:68px;text-align:center;padding:0 7px;border-radius:10px;font-size:12px;font-weight:600;color:#fff}
+.k.added{background:var(--add)}.k.removed{background:var(--rem)}.k.modified{background:var(--mod)}
+.sp,.note{color:var(--mute);font-size:12.5px}
+footer{color:var(--mute);font-size:12px;padding:0 20px 22px}footer a{color:inherit}
+@media (max-width:700px){main{padding:10px}header{padding:12px 10px}#view{height:52vh}.hint{display:none}}
+</style>
+</head>
+<body>
+<header>
+<h1>dxf-diff report<small>19 entity changes</small></h1>
+<div class="files"><b class="o">OLD</b><span>examples/tank_rev_a.dxf</span><b class="n">NEW</b><span>examples/tank_rev_b.dxf</span></div>
+</header>
+<main>
+<div class="cards"><div class="card added"><b>8</b>added</div><div class="card removed"><b>5</b>removed</div><div class="card modified"><b>6</b>modified</div><div class="card unchanged"><b>46</b>unchanged</div><div class="card table"><b>1</b>layer changes</div><div class="card table"><b>0</b>block changes</div></div>
+<div class="viewer">
+<div class="bar">
+<span class="legend"><span><i class="sw" style="color:var(--rem)"></i>removed</span><span><i class="sw" style="color:var(--add)"></i>added</span><span><i class="sw dash" style="color:var(--modold)"></i>modified (old)</span><span><i class="sw" style="color:var(--mod)"></i>modified (new)</span><span><i class="sw" style="color:var(--unch)"></i>unchanged</span></span>
+<label><input type="checkbox" data-toggle="u" checked>unchanged</label>
+<label><input type="checkbox" data-toggle="old" checked>old</label>
+<label><input type="checkbox" data-toggle="new" checked>new</label>
+<button type="button" id="fit">Fit</button>
+<span class="hint">Wheel: zoom &middot; drag: pan &middot; click: select</span>
+</div>
+<svg id="view" xmlns="http://www.w3.org/2000/svg" viewBox="-7220 -13920 25440 17440" preserveAspectRatio="xMidYMid meet"><g class="u"><path d="M-1700,-1000C-1700,-834.3 -1834.3,-700 -2000,-700C-2165.7,-700 -2300,-834.3 -2300,-1000C-2300,-1165.7 -2165.7,-1300 -2000,-1300C-1834.3,-1300 -1700,-1165.7 -1700,-1000ZM-1620,-1000C-1620,-790.1 -1790.1,-620 -2000,-620C-2209.9,-620 -2380,-790.1 -2380,-1000C-2380,-1209.9 -2209.9,-1380 -2000,-1380C-1790.1,-1380 -1620,-1209.9 -1620,-1000ZM11910,-9900C11910,-9839.2 11860.8,-9790 11800,-9790C11739.2,-9790 11690,-9839.2 11690,-9900C11690,-9960.8 11739.2,-10010 11800,-10010C11860.8,-10010 11910,-9960.8 11910,-9900ZM15800,-8400C15800,-6190.9 14009.1,-4400 11800,-4400C9590.9,-4400 7800,-6190.9 7800,-8400C7800,-10609.1 9590.9,-12400 11800,-12400C14009.1,-12400 15800,-10609.1 15800,-8400ZM4060,0L5330,0M4290,-600L5330,-600M5250,-120L5250,-480M4060,0L5710,0M4290,-1800L5710,-1800M5630,-120L5630,-1680M-4060,0L-4980,0M-4060,-9600L-4980,-9600M-4900,-120L-4900,-9480M-4000,72L-4000,1380M4000,72L4000,1380M-3880,1300L3880,1300M1440,-10018.8L1440,-10218.8M1560,-10018.8L1560,-10218.8M1610,-10218.8L1610,-10248.8L1390,-10248.8L1390,-10218.8L1610,-10218.8ZM1500,-9938.8L1500,-10338.8M4000,-660L4200,-660M4000,-540L4200,-540M4200,-490L4230,-490L4230,-710L4200,-710L4200,-490ZM3920,-600L4320,-600M0,900L0,-10670M7400,-8400L16200,-8400M11800,-4000L11800,-12800M15800,-8400L16250,-8400M14628.4,-11228.4L14946.6,-11546.6M14628.4,-5571.6L14946.6,-5253.4M-4000,-2400L4000,-2400M-4000,-4800L4000,-4800M-4000,-7200L4000,-7200M10800,1500L17500,1500M16000,2800L16000,1500M-4400,600L4400,600L4400,12L-4400,12L-4400,600ZM-4000,0L4000,0L4000,-9600L-4000,-9600L-4000,0ZM-4060,-9600L0,-10270L4060,-9600M-4100,12L4100,12L4100,0L-4100,0L-4100,12ZM-6500,2800L17500,2800L17500,-13200L-6500,-13200L-6500,2800ZM10800,2800L17500,2800L17500,400L10800,400L10800,2800Z"/><path class="f" d="M5269.7,-120L5250,0L5230.3,-120L5269.7,-120ZM5230.3,-480L5250,-600L5269.7,-480L5230.3,-480ZM5649.7,-120L5630,0L5610.3,-120L5649.7,-120ZM5610.3,-1680L5630,-1800L5649.7,-1680L5610.3,-1680ZM-4880.3,-120L-4900,0L-4919.7,-120L-4880.3,-120ZM-4919.7,-9480L-4900,-9600L-4880.3,-9480L-4919.7,-9480ZM-3880,1319.7L-4000,1300L-3880,1280.3L-3880,1319.7ZM3880,1280.3L4000,1300L3880,1319.7L3880,1280.3ZM-4400,600L4400,600L4400,12L-4400,12L-4400,600Z"/><text x="5210" y="-300" font-size="210" text-anchor="middle" transform="rotate(-90 5210 -300)">600</text><text x="5590" y="-900" font-size="210" text-anchor="middle" transform="rotate(-90 5590 -900)">1800</text><text x="-4940" y="-4800" font-size="210" text-anchor="middle" transform="rotate(-90 -4940 -4800)">9600</text><text x="0" y="1260" font-size="210" text-anchor="middle">8000</text><text x="1470" y="-10298.8" font-size="168" transform="rotate(-90 1470 -10298.8)">N6</text><text x="1650" y="-10298.8" font-size="126" transform="rotate(-90 1650 -10298.8)">8&quot;</text><text x="1650" y="-10518.8" font-size="126" transform="rotate(-90 1650 -10518.8)">150#</text><text x="4280" y="-630" font-size="168">N1</text><text x="4280" y="-450" font-size="126">6&quot;</text><text x="4500" y="-450" font-size="126">150#</text><text x="-800" y="2100" font-size="350">ELEVATION</text><text x="11950" y="-12650" font-size="224">0°</text><text x="11450" y="-3400" font-size="350">PLAN</text><text x="11000" y="-2950" font-size="252">NOZZLE SCHEDULE</text><text x="11000" y="-2600" font-size="182">N1  6&quot;  150#  INLET  EL 600</text><text x="11000" y="-1480" font-size="182">N6  8&quot;  150#  VENT  EL ROOF</text><text x="11000" y="-1200" font-size="182">M1  24&quot;  150#  MANWAY  EL 1000</text><text x="-2380" y="-1500" font-size="210">M1 24&quot; MANWAY</text><text x="16500" y="-8310" font-size="252" text-anchor="middle">N1</text><text x="15123.4" y="-11633.4" font-size="252" text-anchor="middle">N2</text><text x="15123.4" y="-4986.6" font-size="252" text-anchor="middle">N3</text><text x="12000" y="-9850" font-size="210">N6</text><text x="11000" y="800" font-size="420">STORAGE TANK T-101</text><text x="11000" y="1250" font-size="308">GENERAL ARRANGEMENT</text><text x="11000" y="1950" font-size="252">DWG No. TK-101-GA-001</text><text x="11000" y="2400" font-size="210">SCALE 1:50   UNITS mm</text><text x="11000" y="2700" font-size="126">dxf-diff example drawing - not for construction</text><text x="10900" y="150" font-size="168">A   2026-10-02   ISSUED FOR REVIEW</text></g><g class="ent removed" data-id="8"><path d="M4060,0L6470,0"/><path d="M4290,-6000L6470,-6000"/><path class="f" d="M6409.7,-120L6390,0L6370.3,-120L6409.7,-120Z"/><path class="f" d="M6370.3,-5880L6390,-6000L6409.7,-5880L6370.3,-5880Z"/><path d="M6390,-120L6390,-5880"/><text x="6350" y="-3000" font-size="210" text-anchor="middle" transform="rotate(-90 6350 -3000)">6000</text><path class="hit" d="M4060,0L6470,0M4290,-6000L6470,-6000M6409.7,-120L6390,0L6370.3,-120L6409.7,-120ZM6370.3,-5880L6390,-6000L6409.7,-5880L6370.3,-5880ZM6390,-120L6390,-5880"/></g><g class="ent removed" data-id="9"><path d="M4000,-6060L4200,-6060"/><path d="M4000,-5940L4200,-5940"/><path d="M4200,-5890L4230,-5890L4230,-6110L4200,-6110L4200,-5890Z"/><path d="M3920,-6000L4320,-6000"/><text x="4280" y="-6030" font-size="168">N4</text><text x="4280" y="-5850" font-size="126">3&quot;</text><text x="4500" y="-5850" font-size="126">150#</text><path class="hit" d="M4000,-6060L4200,-6060M4000,-5940L4200,-5940M4200,-5890L4230,-5890L4230,-6110L4200,-6110L4200,-5890ZM3920,-6000L4320,-6000"/></g><g class="ent removed" data-id="10"><path d="M8971.6,-5571.6L8653.4,-5253.4"/><path class="hit" d="M8971.6,-5571.6L8653.4,-5253.4"/></g><g class="ent removed" data-id="11"><text x="11000" y="-1760" font-size="182">N4  3&quot;  150#  LEVEL GAUGE  EL 6000</text></g><g class="ent removed" data-id="12"><text x="8476.6" y="-4986.6" font-size="252" text-anchor="middle">N4</text></g><g class="ent modified o" data-id="13"><path d="M4060,0L6090,0"/><path d="M4290,-3000L6090,-3000"/><path class="f" d="M6029.7,-120L6010,0L5990.3,-120L6029.7,-120Z"/><path class="f" d="M5990.3,-2880L6010,-3000L6029.7,-2880L5990.3,-2880Z"/><path d="M6010,-120L6010,-2880"/><text x="5970" y="-1500" font-size="210" text-anchor="middle" transform="rotate(-90 5970 -1500)">3000</text><path class="hit" d="M4060,0L6090,0M4290,-3000L6090,-3000M6029.7,-120L6010,0L5990.3,-120L6029.7,-120ZM5990.3,-2880L6010,-3000L6029.7,-2880L5990.3,-2880ZM6010,-120L6010,-2880"/></g><g class="ent modified o" data-id="14"><path d="M4000,-1860L4200,-1860"/><path d="M4000,-1740L4200,-1740"/><path d="M4200,-1690L4230,-1690L4230,-1910L4200,-1910L4200,-1690Z"/><path d="M3920,-1800L4320,-1800"/><text x="4280" y="-1830" font-size="168">N2</text><text x="4280" y="-1650" font-size="126">4&quot;</text><text x="4500" y="-1650" font-size="126">150#</text><path class="hit" d="M4000,-1860L4200,-1860M4000,-1740L4200,-1740M4200,-1690L4230,-1690L4230,-1910L4200,-1910L4200,-1690ZM3920,-1800L4320,-1800"/></g><g class="ent modified o" data-id="15"><path d="M4000,-3060L4200,-3060"/><path d="M4000,-2940L4200,-2940"/><path d="M4200,-2890L4230,-2890L4230,-3110L4200,-3110L4200,-2890Z"/><path d="M3920,-3000L4320,-3000"/><text x="4280" y="-3030" font-size="168">N3</text><text x="4280" y="-2850" font-size="126">2&quot;</text><text x="4500" y="-2850" font-size="126">150#</text><path class="hit" d="M4000,-3060L4200,-3060M4000,-2940L4200,-2940M4200,-2890L4230,-2890L4230,-3110L4200,-3110L4200,-2890ZM3920,-3000L4320,-3000"/></g><g class="ent modified o" data-id="16"><text x="11000" y="-2320" font-size="182">N2  4&quot;  150#  OUTLET  EL 1800</text></g><g class="ent modified o" data-id="17"><text x="11000" y="-2040" font-size="182">N3  2&quot;  150#  DRAIN  EL 3000</text></g><g class="ent modified o" data-id="18"><text x="16200" y="2300" font-size="350">REV A</text></g><g class="ent modified n" data-id="13"><path d="M4060,0L6090,0"/><path d="M4290,-3600L6090,-3600"/><path class="f" d="M6029.7,-120L6010,0L5990.3,-120L6029.7,-120Z"/><path class="f" d="M5990.3,-3480L6010,-3600L6029.7,-3480L5990.3,-3480Z"/><path d="M6010,-120L6010,-3480"/><text x="5970" y="-1800" font-size="210" text-anchor="middle" transform="rotate(-90 5970 -1800)">3600</text><path class="hit" d="M4060,0L6090,0M4290,-3600L6090,-3600M6029.7,-120L6010,0L5990.3,-120L6029.7,-120ZM5990.3,-3480L6010,-3600L6029.7,-3480L5990.3,-3480ZM6010,-120L6010,-3480"/></g><g class="ent modified n" data-id="14"><path d="M4000,-1860L4200,-1860"/><path d="M4000,-1740L4200,-1740"/><path d="M4200,-1690L4230,-1690L4230,-1910L4200,-1910L4200,-1690Z"/><path d="M3920,-1800L4320,-1800"/><text x="4280" y="-1830" font-size="168">N2</text><text x="4280" y="-1650" font-size="126">6&quot;</text><text x="4500" y="-1650" font-size="126">150#</text><path class="hit" d="M4000,-1860L4200,-1860M4000,-1740L4200,-1740M4200,-1690L4230,-1690L4230,-1910L4200,-1910L4200,-1690ZM3920,-1800L4320,-1800"/></g><g class="ent modified n" data-id="15"><path d="M4000,-3660L4200,-3660"/><path d="M4000,-3540L4200,-3540"/><path d="M4200,-3490L4230,-3490L4230,-3710L4200,-3710L4200,-3490Z"/><path d="M3920,-3600L4320,-3600"/><text x="4280" y="-3630" font-size="168">N3</text><text x="4280" y="-3450" font-size="126">2&quot;</text><text x="4500" y="-3450" font-size="126">150#</text><path class="hit" d="M4000,-3660L4200,-3660M4000,-3540L4200,-3540M4200,-3490L4230,-3490L4230,-3710L4200,-3710L4200,-3490ZM3920,-3600L4320,-3600"/></g><g class="ent modified n" data-id="16"><text x="11000" y="-2320" font-size="182">N2  6&quot;  150#  OUTLET  EL 1800</text></g><g class="ent modified n" data-id="17"><text x="11000" y="-2040" font-size="182">N3  2&quot;  150#  DRAIN  EL 3600</text></g><g class="ent modified n" data-id="18"><text x="16200" y="2300" font-size="350">REV B</text></g><g class="ent added" data-id="0"><path d="M4060,0L6470,0"/><path d="M4290,-8400L6470,-8400"/><path class="f" d="M6409.7,-120L6390,0L6370.3,-120L6409.7,-120Z"/><path class="f" d="M6370.3,-8280L6390,-8400L6409.7,-8280L6370.3,-8280Z"/><path d="M6390,-120L6390,-8280"/><text x="6350" y="-4200" font-size="210" text-anchor="middle" transform="rotate(-90 6350 -4200)">8400</text><path class="hit" d="M4060,0L6470,0M4290,-8400L6470,-8400M6409.7,-120L6390,0L6370.3,-120L6409.7,-120ZM6370.3,-8280L6390,-8400L6409.7,-8280L6370.3,-8280ZM6390,-120L6390,-8280"/></g><g class="ent added" data-id="1"><path d="M4000,-8460L4200,-8460"/><path d="M4000,-8340L4200,-8340"/><path d="M4200,-8290L4230,-8290L4230,-8510L4200,-8510L4200,-8290Z"/><path d="M3920,-8400L4320,-8400"/><text x="4280" y="-8430" font-size="168">N5</text><text x="4280" y="-8250" font-size="126">3&quot;</text><text x="4500" y="-8250" font-size="126">150#</text><path class="hit" d="M4000,-8460L4200,-8460M4000,-8340L4200,-8340M4200,-8290L4230,-8290L4230,-8510L4200,-8510L4200,-8290ZM3920,-8400L4320,-8400"/></g><g class="ent added" data-id="2"><path d="M8971.6,-11228.4L8653.4,-11546.6"/><path class="hit" d="M8971.6,-11228.4L8653.4,-11546.6"/></g><g class="ent added" data-id="3"><path d="M3750,-3300C3774.6,-3253.8 3822.7,-3225 3875,-3225C3927.3,-3225 3975.4,-3253.8 4000,-3300C4024.6,-3253.8 4072.7,-3225 4125,-3225C4177.3,-3225 4225.4,-3253.8 4250,-3300C4274.6,-3253.8 4322.7,-3225 4375,-3225C4427.3,-3225 4475.4,-3253.8 4500,-3300C4524.6,-3253.8 4572.7,-3225 4625,-3225C4677.3,-3225 4725.4,-3253.8 4750,-3300C4774.6,-3253.8 4822.7,-3225 4875,-3225C4927.3,-3225 4975.4,-3253.8 5000,-3300C5060,-3332 5097.5,-3394.5 5097.5,-3462.5C5097.5,-3530.5 5060,-3593 5000,-3625C5060,-3657 5097.5,-3719.5 5097.5,-3787.5C5097.5,-3855.5 5060,-3918 5000,-3950C4975.4,-3996.2 4927.3,-4025 4875,-4025C4822.7,-4025 4774.6,-3996.2 4750,-3950C4725.4,-3996.2 4677.3,-4025 4625,-4025C4572.7,-4025 4524.6,-3996.2 4500,-3950C4475.4,-3996.2 4427.3,-4025 4375,-4025C4322.7,-4025 4274.6,-3996.2 4250,-3950C4225.4,-3996.2 4177.3,-4025 4125,-4025C4072.7,-4025 4024.6,-3996.2 4000,-3950C3975.4,-3996.2 3927.3,-4025 3875,-4025C3822.7,-4025 3774.6,-3996.2 3750,-3950C3690,-3918 3652.5,-3855.5 3652.5,-3787.5C3652.5,-3719.5 3690,-3657 3750,-3625C3690,-3593 3652.5,-3530.5 3652.5,-3462.5C3652.5,-3394.5 3690,-3332 3750,-3300Z"/><path class="hit" d="M3750,-3300C3774.6,-3253.8 3822.7,-3225 3875,-3225C3927.3,-3225 3975.4,-3253.8 4000,-3300C4024.6,-3253.8 4072.7,-3225 4125,-3225C4177.3,-3225 4225.4,-3253.8 4250,-3300C4274.6,-3253.8 4322.7,-3225 4375,-3225C4427.3,-3225 4475.4,-3253.8 4500,-3300C4524.6,-3253.8 4572.7,-3225 4625,-3225C4677.3,-3225 4725.4,-3253.8 4750,-3300C4774.6,-3253.8 4822.7,-3225 4875,-3225C4927.3,-3225 4975.4,-3253.8 5000,-3300C5060,-3332 5097.5,-3394.5 5097.5,-3462.5C5097.5,-3530.5 5060,-3593 5000,-3625C5060,-3657 5097.5,-3719.5 5097.5,-3787.5C5097.5,-3855.5 5060,-3918 5000,-3950C4975.4,-3996.2 4927.3,-4025 4875,-4025C4822.7,-4025 4774.6,-3996.2 4750,-3950C4725.4,-3996.2 4677.3,-4025 4625,-4025C4572.7,-4025 4524.6,-3996.2 4500,-3950C4475.4,-3996.2 4427.3,-4025 4375,-4025C4322.7,-4025 4274.6,-3996.2 4250,-3950C4225.4,-3996.2 4177.3,-4025 4125,-4025C4072.7,-4025 4024.6,-3996.2 4000,-3950C3975.4,-3996.2 3927.3,-4025 3875,-4025C3822.7,-4025 3774.6,-3996.2 3750,-3950C3690,-3918 3652.5,-3855.5 3652.5,-3787.5C3652.5,-3719.5 3690,-3657 3750,-3625C3690,-3593 3652.5,-3530.5 3652.5,-3462.5C3652.5,-3394.5 3690,-3332 3750,-3300Z"/></g><g class="ent added" data-id="4"><path d="M3750,-8100C3774.6,-8053.8 3822.7,-8025 3875,-8025C3927.3,-8025 3975.4,-8053.8 4000,-8100C4024.6,-8053.8 4072.7,-8025 4125,-8025C4177.3,-8025 4225.4,-8053.8 4250,-8100C4274.6,-8053.8 4322.7,-8025 4375,-8025C4427.3,-8025 4475.4,-8053.8 4500,-8100C4524.6,-8053.8 4572.7,-8025 4625,-8025C4677.3,-8025 4725.4,-8053.8 4750,-8100C4774.6,-8053.8 4822.7,-8025 4875,-8025C4927.3,-8025 4975.4,-8053.8 5000,-8100C5060,-8132 5097.5,-8194.5 5097.5,-8262.5C5097.5,-8330.5 5060,-8393 5000,-8425C5060,-8457 5097.5,-8519.5 5097.5,-8587.5C5097.5,-8655.5 5060,-8718 5000,-8750C4975.4,-8796.2 4927.3,-8825 4875,-8825C4822.7,-8825 4774.6,-8796.2 4750,-8750C4725.4,-8796.2 4677.3,-8825 4625,-8825C4572.7,-8825 4524.6,-8796.2 4500,-8750C4475.4,-8796.2 4427.3,-8825 4375,-8825C4322.7,-8825 4274.6,-8796.2 4250,-8750C4225.4,-8796.2 4177.3,-8825 4125,-8825C4072.7,-8825 4024.6,-8796.2 4000,-8750C3975.4,-8796.2 3927.3,-8825 3875,-8825C3822.7,-8825 3774.6,-8796.2 3750,-8750C3690,-8718 3652.5,-8655.5 3652.5,-8587.5C3652.5,-8519.5 3690,-8457 3750,-8425C3690,-8393 3652.5,-8330.5 3652.5,-8262.5C3652.5,-8194.5 3690,-8132 3750,-8100Z"/><path class="hit" d="M3750,-8100C3774.6,-8053.8 3822.7,-8025 3875,-8025C3927.3,-8025 3975.4,-8053.8 4000,-8100C4024.6,-8053.8 4072.7,-8025 4125,-8025C4177.3,-8025 4225.4,-8053.8 4250,-8100C4274.6,-8053.8 4322.7,-8025 4375,-8025C4427.3,-8025 4475.4,-8053.8 4500,-8100C4524.6,-8053.8 4572.7,-8025 4625,-8025C4677.3,-8025 4725.4,-8053.8 4750,-8100C4774.6,-8053.8 4822.7,-8025 4875,-8025C4927.3,-8025 4975.4,-8053.8 5000,-8100C5060,-8132 5097.5,-8194.5 5097.5,-8262.5C5097.5,-8330.5 5060,-8393 5000,-8425C5060,-8457 5097.5,-8519.5 5097.5,-8587.5C5097.5,-8655.5 5060,-8718 5000,-8750C4975.4,-8796.2 4927.3,-8825 4875,-8825C4822.7,-8825 4774.6,-8796.2 4750,-8750C4725.4,-8796.2 4677.3,-8825 4625,-8825C4572.7,-8825 4524.6,-8796.2 4500,-8750C4475.4,-8796.2 4427.3,-8825 4375,-8825C4322.7,-8825 4274.6,-8796.2 4250,-8750C4225.4,-8796.2 4177.3,-8825 4125,-8825C4072.7,-8825 4024.6,-8796.2 4000,-8750C3975.4,-8796.2 3927.3,-8825 3875,-8825C3822.7,-8825 3774.6,-8796.2 3750,-8750C3690,-8718 3652.5,-8655.5 3652.5,-8587.5C3652.5,-8519.5 3690,-8457 3750,-8425C3690,-8393 3652.5,-8330.5 3652.5,-8262.5C3652.5,-8194.5 3690,-8132 3750,-8100Z"/></g><g class="ent added" data-id="5"><text x="11000" y="-920" font-size="182">N5  3&quot;  150#  OVERFLOW  EL 8400</text></g><g class="ent added" data-id="6"><text x="8476.6" y="-11633.4" font-size="252" text-anchor="middle">N5</text></g><g class="ent added" data-id="7"><text x="10900" y="-150" font-size="168">B   2026-11-20   N2 RESIZED, N3 RELOCATED, N4 DELETED, N5 ADDED</text></g></svg>
+</div>
+
+<div class="tools"><h2>Entity changes (19)</h2><input id="filter" type="search" placeholder="Filter changes..." aria-label="Filter changes"></div>
+<table id="changes"><thead><tr><th>#</th><th>Change</th><th>Type</th><th>Layer</th><th>Handle</th><th>Description</th></tr></thead>
+<tbody><tr data-id="0" data-bbox="4060 -8400 2410 8400"><td>1</td><td><span class="k added">added</span></td><td>DIMENSION</td><td>DIMENSIONS</td><td class="h">165</td><td>DIMENSION linear 8400</td></tr><tr data-id="1" data-bbox="3920 -8550 850 300"><td>2</td><td><span class="k added">added</span></td><td>INSERT</td><td>NOZZLES</td><td class="h">160</td><td>INSERT TANK-NOZZLE at (4000,8400) TAG=&#x27;N5&#x27; SIZE=&#x27;3&quot;&#x27; RATING=&#x27;150#&#x27;</td></tr><tr data-id="2" data-bbox="8653.4 -11546.6 318.2 318.2"><td>3</td><td><span class="k added">added</span></td><td>LINE</td><td>NOZZLES</td><td class="h">174</td><td>LINE (8971.5729,11228.4271) to (8653.3748,11546.6252)</td></tr><tr data-id="3" data-bbox="3652.5 -4025 1445 800"><td>4</td><td><span class="k added">added</span></td><td>LWPOLYLINE</td><td>REVISION</td><td class="h">178</td><td>LWPOLYLINE 14 vertices, closed, first (3750,3300)</td></tr><tr data-id="4" data-bbox="3652.5 -8825 1445 800"><td>5</td><td><span class="k added">added</span></td><td>LWPOLYLINE</td><td>REVISION</td><td class="h">179</td><td>LWPOLYLINE 14 vertices, closed, first (3750,8100)</td></tr><tr data-id="5" data-bbox="11000 -1050 3022.5 130"><td>6</td><td><span class="k added">added</span></td><td>TEXT</td><td>ANNOTATION</td><td class="h">176</td><td>TEXT &#x27;N5  3&quot;  150#  OVERFLOW  EL 8400&#x27; at (11000,920)</td></tr><tr data-id="6" data-bbox="8341.6 -11813.4 270 180"><td>7</td><td><span class="k added">added</span></td><td>TEXT</td><td>NOZZLES</td><td class="h">175</td><td>TEXT &#x27;N5&#x27; at (8476.5981,11723.4019)</td></tr><tr data-id="7" data-bbox="10900 -270 5670 120"><td>8</td><td><span class="k added">added</span></td><td>TEXT</td><td>TITLE</td><td class="h">151</td><td>TEXT &#x27;B   2026-11-20   N2 RESIZED, N3 RELOCATED, N4...&#x27; at (10900,150)</td></tr><tr data-id="8" data-bbox="4060 -6000 2410 6000"><td>9</td><td><span class="k removed">removed</span></td><td>DIMENSION</td><td>DIMENSIONS</td><td class="h">F4</td><td>DIMENSION linear 6000</td></tr><tr data-id="9" data-bbox="3920 -6150 850 300"><td>10</td><td><span class="k removed">removed</span></td><td>INSERT</td><td>NOZZLES</td><td class="h">EF</td><td>INSERT TANK-NOZZLE at (4000,6000) TAG=&#x27;N4&#x27; SIZE=&#x27;3&quot;&#x27; RATING=&#x27;150#&#x27;</td></tr><tr data-id="10" data-bbox="8653.4 -5571.6 318.2 318.2"><td>11</td><td><span class="k removed">removed</span></td><td>LINE</td><td>NOZZLES</td><td class="h">103</td><td>LINE (8971.5729,5571.5729) to (8653.3748,5253.3748)</td></tr><tr data-id="11" data-bbox="11000 -1890 3315 130"><td>12</td><td><span class="k removed">removed</span></td><td>TEXT</td><td>ANNOTATION</td><td class="h">12F</td><td>TEXT &#x27;N4  3&quot;  150#  LEVEL GAUGE  EL 6000&#x27; at (11000,1760)</td></tr><tr data-id="12" data-bbox="8341.6 -5166.6 270 180"><td>13</td><td><span class="k removed">removed</span></td><td>TEXT</td><td>NOZZLES</td><td class="h">104</td><td>TEXT &#x27;N4&#x27; at (8476.5981,5076.5981)</td></tr><tr data-id="13" data-bbox="4060 -3600 2030 3600"><td>14</td><td><span class="k modified">modified</span></td><td>DIMENSION</td><td>DIMENSIONS</td><td class="h">DE</td><td>DIMENSION measurement 3000 -&gt; 3600, defpoint3 moved (4230,3000) -&gt; (4230,3600)</td></tr><tr data-id="14" data-bbox="3920 -1950 850 300"><td>15</td><td><span class="k modified">modified</span></td><td>INSERT</td><td>NOZZLES</td><td class="h">C3</td><td>INSERT TANK-NOZZLE attribute SIZE &#x27;4&quot;&#x27; -&gt; &#x27;6&quot;&#x27;</td></tr><tr data-id="15" data-bbox="3920 -3750 850 900"><td>16</td><td><span class="k modified">modified</span></td><td>INSERT</td><td>NOZZLES</td><td class="h">D9</td><td>INSERT TANK-NOZZLE insert moved (4000,3000) -&gt; (4000,3600)</td></tr><tr data-id="16" data-bbox="11000 -2450 2827.5 130"><td>17</td><td><span class="k modified">modified</span></td><td>TEXT</td><td>ANNOTATION</td><td class="h">12D</td><td>TEXT &#x27;N2  4&quot;  150#  OUTLET  EL 1800&#x27; -&gt; &#x27;N2  6&quot;  150#  OUTLET  EL 1800&#x27;</td></tr><tr data-id="17" data-bbox="11000 -2170 2730 130"><td>18</td><td><span class="k modified">modified</span></td><td>TEXT</td><td>ANNOTATION</td><td class="h">12E</td><td>TEXT &#x27;N3  2&quot;  150#  DRAIN  EL 3000&#x27; -&gt; &#x27;N3  2&quot;  150#  DRAIN  EL 3600&#x27;</td></tr><tr data-id="18" data-bbox="16200 2050 937.5 250"><td>19</td><td><span class="k modified">modified</span></td><td>TEXT</td><td>TITLE</td><td class="h">13A</td><td>TEXT &#x27;REV A&#x27; -&gt; &#x27;REV B&#x27;</td></tr></tbody></table>
+<h2>Layer changes (1)</h2><table><thead><tr><th>Change</th><th>Name</th><th>Description</th></tr></thead><tbody><tr><td><span class="k added">added</span></td><td>REVISION</td><td>layer added (color 6 (magenta), linetype Continuous)</td></tr></tbody></table>
+
+</main>
+<footer>Generated by dxf-diff 0.1.0 (tolerance 1e-06) &middot; <a href="https://github.com/Shahnawaz75/dxf-diff">github.com/Shahnawaz75/dxf-diff</a></footer>
+<script>
+(function () {
+  var svg = document.getElementById('view');
+  var home = svg.getAttribute('viewBox').split(' ').map(Number), vb = home.slice();
+  var drag = null, moved = false, current = null;
+  function setVB(b) { vb = b; svg.setAttribute('viewBox', b.join(' ')); }
+  function toSvg(x, y) { return new DOMPoint(x, y).matrixTransform(svg.getScreenCTM().inverse()); }
+  function unitsPerPixel() { var r = svg.getBoundingClientRect(); return Math.max(vb[2] / r.width, vb[3] / r.height); }
+  svg.addEventListener('wheel', function (e) {
+    e.preventDefault();
+    var p = toSvg(e.clientX, e.clientY);
+    var k = Math.pow(1.0015, Math.max(-300, Math.min(300, e.deltaY * (e.deltaMode === 1 ? 33 : 1))));
+    setVB([p.x - (p.x - vb[0]) * k, p.y - (p.y - vb[1]) * k, vb[2] * k, vb[3] * k]);
+  }, { passive: false });
+  svg.addEventListener('pointerdown', function (e) {
+    if (e.button !== 0) return;
+    drag = { x: e.clientX, y: e.clientY, vb: vb.slice(), s: unitsPerPixel() }; moved = false;
+    svg.style.cursor = 'grabbing';
+  });
+  window.addEventListener('pointermove', function (e) {
+    if (!drag) return;
+    var dx = e.clientX - drag.x, dy = e.clientY - drag.y;
+    if (Math.abs(dx) + Math.abs(dy) > 3) moved = true;
+    if (moved) setVB([drag.vb[0] - dx * drag.s, drag.vb[1] - dy * drag.s, drag.vb[2], drag.vb[3]]);
+  });
+  window.addEventListener('pointerup', function () { drag = null; svg.style.cursor = ''; });
+  function mark(id, cls, on) {
+    var nodes = document.querySelectorAll('[data-id="' + id + '"]');
+    for (var i = 0; i < nodes.length; i++) nodes[i].classList.toggle(cls, on);
+  }
+  function zoomTo(b) {
+    var m = Math.max(b[2], b[3], home[2] * 0.03, home[3] * 0.03) * 0.8;
+    setVB([b[0] - m, b[1] - m, b[2] + 2 * m, b[3] + 2 * m]);
+  }
+  function select(id, fromDrawing) {
+    if (current !== null) mark(current, 'sel', false);
+    current = id; mark(id, 'sel', true);
+    var row = document.querySelector('tr[data-id="' + id + '"]');
+    if (!row) return;
+    if (fromDrawing) row.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
+    else if (row.getAttribute('data-bbox')) zoomTo(row.getAttribute('data-bbox').split(' ').map(Number));
+  }
+  svg.addEventListener('click', function (e) {
+    if (moved) return;
+    var g = e.target.closest ? e.target.closest('.ent') : null;
+    if (g) select(g.getAttribute('data-id'), true);
+  });
+  var rows = document.querySelectorAll('tr[data-id]');
+  Array.prototype.forEach.call(rows, function (row) {
+    var id = row.getAttribute('data-id');
+    row.addEventListener('click', function () { select(id, false); });
+    row.addEventListener('mouseenter', function () { mark(id, 'hov', true); });
+    row.addEventListener('mouseleave', function () { mark(id, 'hov', false); });
+  });
+  Array.prototype.forEach.call(document.querySelectorAll('input[data-toggle]'), function (box) {
+    box.addEventListener('change', function () { svg.classList.toggle('hide-' + box.getAttribute('data-toggle'), !box.checked); });
+  });
+  document.getElementById('fit').addEventListener('click', function () { setVB(home.slice()); });
+  var filter = document.getElementById('filter');
+  filter.addEventListener('input', function () {
+    var q = filter.value.toLowerCase();
+    Array.prototype.forEach.call(rows, function (row) {
+      row.style.display = row.textContent.toLowerCase().indexOf(q) >= 0 ? '' : 'none';
+    });
+  });
+})();
+</script>
+</body>
+</html>
