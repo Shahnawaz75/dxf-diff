@@ -2,12 +2,12 @@
 
 **dxf-diff** is a free, open source Python tool to compare DXF files: a DXF diff for CAD drawing revision comparison that lists every added, removed and modified entity and draws both revisions as a colored overlay, built on [ezdxf](https://github.com/mozman/ezdxf).
 
-[![CI](https://github.com/Shahnawaz75/dxf-diff/actions/workflows/ci.yml/badge.svg)](https://github.com/Shahnawaz75/dxf-diff/actions/workflows/ci.yml)
-[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-
 ![dxf-diff HTML report: SVG overlay of two revisions of a storage tank drawing, removed parts in red, added in green, modified in orange](docs/screenshot.png)
 
 *The HTML report for the example drawings in [`examples/`](examples/): nozzle N4 removed (red), N5 added (green), N3 moved and N2 resized (orange), title block REV A -> REV B.*
+
+[![CI](https://github.com/Shahnawaz75/dxf-diff/actions/workflows/ci.yml/badge.svg)](https://github.com/Shahnawaz75/dxf-diff/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 ## Why dxf-diff?
 
@@ -118,7 +118,7 @@ For the full picture, use dxf-diff as a git difftool:
 
 ```bash
 git config --global difftool.dxf-diff.cmd 'dxf-diff "$LOCAL" "$REMOTE" --open'
-git difftool -t dxf-diff HEAD~1 -- drawings/plan.dxf
+git difftool -y -t dxf-diff HEAD~1 -- drawings/plan.dxf
 ```
 
 More in [docs/git-integration.md](docs/git-integration.md).
