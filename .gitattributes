@@ -1,0 +1,8 @@
+# Normalize text files to LF in the repository
+* text=auto eol=lf
+
+# DXF drawings: keep the bytes as written, show readable diffs when
+# `git config diff.dxf.textconv "dxf-diff --textconv"` is set (see docs/git-integration.md)
+*.dxf -text diff=dxf
+
+*.png binary

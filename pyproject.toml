@@ -1,0 +1,80 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dxf-diff"
+version = "0.1.0"
+description = "Compare two DXF files and see what changed: a free, open-source DXF diff for CAD drawing revisions, with terminal, JSON, HTML/SVG overlay and git textconv output."
+readme = "README.md"
+requires-python = ">=3.9"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{ name = "Shahnawaz75" }]
+keywords = [
+    "dxf",
+    "dxf-diff",
+    "diff",
+    "compare",
+    "cad",
+    "autocad",
+    "ezdxf",
+    "drawing-comparison",
+    "revision",
+    "dwg-compare",
+    "git",
+    "textconv",
+    "svg",
+    "engineering",
+    "drafting",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Manufacturing",
+    "Intended Audience :: Science/Research",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Multimedia :: Graphics :: Graphics Conversion",
+    "Topic :: Scientific/Engineering",
+    "Topic :: Scientific/Engineering :: Visualization",
+    "Topic :: Software Development :: Version Control :: Git",
+    "Topic :: Utilities",
+    "Typing :: Typed",
+]
+dependencies = ["ezdxf>=1.1"]
+
+[project.optional-dependencies]
+test = ["pytest>=7"]
+
+[project.urls]
+Homepage = "https://github.com/Shahnawaz75/dxf-diff"
+Documentation = "https://github.com/Shahnawaz75/dxf-diff/tree/main/docs"
+Repository = "https://github.com/Shahnawaz75/dxf-diff"
+Issues = "https://github.com/Shahnawaz75/dxf-diff/issues"
+Changelog = "https://github.com/Shahnawaz75/dxf-diff/blob/main/CHANGELOG.md"
+
+[tool.setuptools.package-data]
+dxf_diff = ["py.typed"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
+
+[tool.ruff]
+line-length = 120
+target-version = "py39"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "B", "I", "UP"]
+ignore = ["UP006", "UP007", "UP035", "UP045"]  # keep typing.List/Optional for Python 3.9
+
+[tool.ruff.lint.per-file-ignores]
+"src/dxf_diff/html_report.py" = ["E501"]  # embedded HTML/CSS/JS template
