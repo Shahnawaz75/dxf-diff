@@ -55,6 +55,9 @@ dependencies = ["ezdxf>=1.1"]
 png = ["matplotlib>=3.5"]
 test = ["pytest>=7"]
 
+[project.scripts]
+dxf-diff = "dxf_diff.cli:main"
+
 [project.urls]
 Homepage = "https://github.com/Shahnawaz75/dxf-diff"
 Documentation = "https://github.com/Shahnawaz75/dxf-diff/tree/main/docs"

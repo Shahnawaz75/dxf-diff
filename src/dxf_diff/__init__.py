@@ -14,6 +14,7 @@ from .engine import CompareOptions, compare, load_drawing
 from .html_report import render_html, write_html
 from .model import BlockChange, ChangeKind, DiffResult, DxfDiffError, EntityChange, LayerChange, PropertyChange
 from .png_report import write_png
+from .textconv import textconv
 
 __all__ = [
     "BlockChange",
@@ -28,6 +29,7 @@ __all__ = [
     "compare",
     "load_drawing",
     "render_html",
+    "textconv",
     "write_html",
     "write_png",
 ]
